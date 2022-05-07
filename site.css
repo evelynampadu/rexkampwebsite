@@ -1,0 +1,121 @@
+body {
+    background-image: url(/Assets/Images/bgph.jpg);
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu {
+    margin: auto;
+    padding-top: 40px;
+}
+
+a{
+    color: honeydew;
+    font-size: larger;
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header {
+    background-color: rgb(255, 190, 0)
+}
+
+/*.centered 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}*/
+
+
+/*.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}*/
+
+.centered {
+    width: 80%;
+    padding: 0 80px;
+}
+
+.wrap{
+    color: #FCA510;
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+}
+
+h1 {
+    color: #FCA510;
+    font-size: 3rem;
+    
+}
+
+footer {
+    background-color: #FCA510;
+}
+
+.foot {
+    float: right;
+    
+}
+
+.global{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+img{
+    padding: 5px;
+    border-radius: 30px;
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+.bottom {
+    display: flex;
+    margin: auto;
+    padding: auto;
+    
+}
+
+strong{
+    color: blue;
+    text-decoration: underline;
+}
+
+.about {
+    color: cornsilk;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 150px;
+}
+
+
+fieldset {
+    margin: 30px 100px;
+    padding: 30px;
+}
+
+label {
+    display: block;
+}
+
+button {
+    display: block;
+    width: 10%;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
